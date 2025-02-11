@@ -1,0 +1,24 @@
+# .gitignore
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env
+
+# Ignore sensitive files
+credentials.json
+config.py
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore IDE/editor settings
+.vscode/
+*.swp
+*.swo
