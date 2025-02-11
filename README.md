@@ -73,3 +73,7 @@ __pycache__/
 
 ## 📜 License
 MIT License © 2025
+
+
+## Acknowledgements
+This project was born out of a fiery burst of determination, fueled by my deep-seated loathing for fruitcake.
