@@ -10,7 +10,7 @@ Automatically sync your **Canvas** assignment due dates with **Google Calendar**
 ## 🛠 Installation
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/Canvas2Calendar.git
+   git clone https://github.com/ShafeiW/Canvas2Calendar.git
    cd Canvas2Calendar
    ```
 2. **Install dependencies:**
