@@ -1,5 +1,3 @@
-# README.md
-
 # 📅 Canvas2Calendar
 Automatically sync your **Canvas** assignment due dates with **Google Calendar**! 🚀
 
