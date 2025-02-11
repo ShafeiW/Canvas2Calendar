@@ -1,4 +1,6 @@
 from datetime import datetime, timezone
+import schedule
+import time
 from fetch_canvas import fetch_all_assignments
 from add_to_calendar import add_event
 
@@ -23,5 +25,11 @@ def sync_assignments():
         add_event(event_title, event_date.isoformat())
         print(f"Added: {event_title} on {event_date}")
 
+# Schedule the script to run every 2 days
+schedule.every(2).days.do(sync_assignments)
+
 if __name__ == "__main__":
-    sync_assignments()
+    print("📅 Canvas2Calendar is running every 2 days...")
+    while True:
+        schedule.run_pending()
+        time.sleep(3600)  # Check every hour
